@@ -25,5 +25,5 @@ int main() {
         }
     } while (tentative != nombre_secret);
 
-    exit(EXIT_SUCCESS)
+    exit(EXIT_SUCCESS);
 }
