@@ -20,7 +20,7 @@ int main() {
         } else if (tentative > nombre_secret) {
             printf("Trop grand.\n");
         } else {
-            printf("Bien joué, le nombre était en effet %d\n", nombre_secret);
+            printf("Bien joue, le nombre etait %d\n", nombre_secret);
             printf("Nombre d'essais : %d\n", essais);
         }
     } while (tentative != nombre_secret);

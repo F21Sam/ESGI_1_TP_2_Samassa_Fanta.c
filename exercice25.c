@@ -12,7 +12,7 @@ if(/* Condition : si mot de passe erroné */
 !((first_pass == 42 && second_pass == 1337)
     || (first_pass == 1235 && second_pass == 1235))) 
  {
-printf("Accès refusé.\n");
+printf("Accès refuse.\n");
 exit(EXIT_SUCCESS);
 }
 printf("Bienvenue !\n");
